@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "637382084058957067-removebg-preview",
+    "customModelName": "Normal",
+    "name": "Clark's Special",
+    "rarity": "EPIC",
+    "specialInfo": [
+      "Clark's Special Sandwich! It's got a strange liquid inside.."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Tempus"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 5,
+    "saturation": 0.5,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "ClarksSpecialFoodEaten"
+    }
+  }
+}

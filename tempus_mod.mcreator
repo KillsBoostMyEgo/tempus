@@ -1,0 +1,139 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "ClarksSpecial",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clarks_special"
+    },
+    {
+      "name": "Logo",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "logo"
+    },
+    {
+      "name": "Tempus",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tempus"
+    },
+    {
+      "name": "Disease",
+      "type": "potion",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disease"
+    },
+    {
+      "name": "DiseaseOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disease_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClarksSpecialFoodEaten",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clarks_special_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Clark",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clark",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabtempus": "Tempus",
+      "potion.effect.disease": "Disease",
+      "item.minecraft.potion.effect.disease": "Disease",
+      "effect.disease": "Disease",
+      "item.minecraft.lingering_potion.effect.disease": "Lingering Disease",
+      "tipped_arrow.effect.disease": "Arrow of Disease",
+      "splash_potion.effect.disease": "Splash Disease",
+      "item.clarks_special.name": "Clark\u0027s Special",
+      "item.minecraft.splash_potion.effect.disease": "Splash Disease",
+      "item.tempus_mod.clarks_special": "Clark\u0027s Special",
+      "item.minecraft.tipped_arrow.effect.disease": "Arrow of Disease",
+      "item.logo.name": "Logo",
+      "lingering_potion.effect.disease": "Lingering Disease",
+      "item.tempus_mod.logo": "Logo"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tempus_mod",
+    "modName": "Tempus",
+    "version": "1.0.0",
+    "author": "ARCADIA, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.tempusmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

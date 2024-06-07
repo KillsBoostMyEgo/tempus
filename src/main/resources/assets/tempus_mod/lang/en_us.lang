@@ -1,0 +1,14 @@
+itemGroup.tabtempus=Tempus
+potion.effect.disease=Disease
+item.minecraft.potion.effect.disease=Disease
+effect.disease=Disease
+item.minecraft.lingering_potion.effect.disease=Lingering Disease
+tipped_arrow.effect.disease=Arrow of Disease
+splash_potion.effect.disease=Splash Disease
+item.clarks_special.name=Clark's Special
+item.minecraft.splash_potion.effect.disease=Splash Disease
+item.tempus_mod.clarks_special=Clark's Special
+item.minecraft.tipped_arrow.effect.disease=Arrow of Disease
+item.logo.name=Logo
+lingering_potion.effect.disease=Lingering Disease
+item.tempus_mod.logo=Logo
